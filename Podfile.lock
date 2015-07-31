@@ -1,0 +1,16 @@
+PODS:
+  - Bolts/Tasks (1.2.0)
+  - OCMock (3.1.2)
+  - Parse (1.7.5.3):
+    - Bolts/Tasks (>= 1.2.0)
+
+DEPENDENCIES:
+  - OCMock
+  - Parse
+
+SPEC CHECKSUMS:
+  Bolts: d176cb1e0012175589e389a9db49b85e27787576
+  OCMock: a10ea9f0a6e921651f96f78b6faee95ebc813b92
+  Parse: 373adbb1ad2e34d383542c3b28f678c49ebe4881
+
+COCOAPODS: 0.38.2

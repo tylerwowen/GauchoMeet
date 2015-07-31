@@ -1,0 +1,6 @@
+framework module Pods_GauchoMeet {
+  umbrella header "Pods-GauchoMeet-umbrella.h"
+
+  export *
+  module * { export * }
+}
