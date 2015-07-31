@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FA074691B6B4C1300E62667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA074681B6B4C1300E62667 /* AppDelegate.swift */; };
+		2FA0746B1B6B4C1300E62667 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA0746A1B6B4C1300E62667 /* FirstViewController.swift */; };
+		2FA0746D1B6B4C1300E62667 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA0746C1B6B4C1300E62667 /* SecondViewController.swift */; };
+		2FA074701B6B4C1300E62667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA0746E1B6B4C1300E62667 /* Main.storyboard */; };
+		2FA074721B6B4C1300E62667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA074711B6B4C1300E62667 /* Assets.xcassets */; };
+		2FA074751B6B4C1300E62667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA074731B6B4C1300E62667 /* LaunchScreen.storyboard */; };
+		2FA074801B6B4C1300E62667 /* GauchoMeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA0747F1B6B4C1300E62667 /* GauchoMeetTests.swift */; };
+		2FA0748B1B6B4C1300E62667 /* GauchoMeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA0748A1B6B4C1300E62667 /* GauchoMeetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FA0747C1B6B4C1300E62667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FA0745D1B6B4C1300E62667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FA074641B6B4C1300E62667;
+			remoteInfo = GauchoMeet;
+		};
+		2FA074871B6B4C1300E62667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FA0745D1B6B4C1300E62667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FA074641B6B4C1300E62667;
+			remoteInfo = GauchoMeet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FA074651B6B4C1300E62667 /* GauchoMeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GauchoMeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA074681B6B4C1300E62667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FA0746A1B6B4C1300E62667 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2FA0746C1B6B4C1300E62667 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2FA0746F1B6B4C1300E62667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FA074711B6B4C1300E62667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FA074741B6B4C1300E62667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FA074761B6B4C1300E62667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FA0747B1B6B4C1300E62667 /* GauchoMeetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GauchoMeetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA0747F1B6B4C1300E62667 /* GauchoMeetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauchoMeetTests.swift; sourceTree = "<group>"; };
+		2FA074811B6B4C1300E62667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FA074861B6B4C1300E62667 /* GauchoMeetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GauchoMeetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA0748A1B6B4C1300E62667 /* GauchoMeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauchoMeetUITests.swift; sourceTree = "<group>"; };
+		2FA0748C1B6B4C1300E62667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FA074621B6B4C1300E62667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA074781B6B4C1300E62667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA074831B6B4C1300E62667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FA0745C1B6B4C1300E62667 = {
+			isa = PBXGroup;
+			children = (
+				2FA074671B6B4C1300E62667 /* GauchoMeet */,
+				2FA0747E1B6B4C1300E62667 /* GauchoMeetTests */,
+				2FA074891B6B4C1300E62667 /* GauchoMeetUITests */,
+				2FA074661B6B4C1300E62667 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FA074661B6B4C1300E62667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FA074651B6B4C1300E62667 /* GauchoMeet.app */,
+				2FA0747B1B6B4C1300E62667 /* GauchoMeetTests.xctest */,
+				2FA074861B6B4C1300E62667 /* GauchoMeetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FA074671B6B4C1300E62667 /* GauchoMeet */ = {
+			isa = PBXGroup;
+			children = (
+				2FA074681B6B4C1300E62667 /* AppDelegate.swift */,
+				2FA0746A1B6B4C1300E62667 /* FirstViewController.swift */,
+				2FA0746C1B6B4C1300E62667 /* SecondViewController.swift */,
+				2FA0746E1B6B4C1300E62667 /* Main.storyboard */,
+				2FA074711B6B4C1300E62667 /* Assets.xcassets */,
+				2FA074731B6B4C1300E62667 /* LaunchScreen.storyboard */,
+				2FA074761B6B4C1300E62667 /* Info.plist */,
+			);
+			path = GauchoMeet;
+			sourceTree = "<group>";
+		};
+		2FA0747E1B6B4C1300E62667 /* GauchoMeetTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FA0747F1B6B4C1300E62667 /* GauchoMeetTests.swift */,
+				2FA074811B6B4C1300E62667 /* Info.plist */,
+			);
+			path = GauchoMeetTests;
+			sourceTree = "<group>";
+		};
+		2FA074891B6B4C1300E62667 /* GauchoMeetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FA0748A1B6B4C1300E62667 /* GauchoMeetUITests.swift */,
+				2FA0748C1B6B4C1300E62667 /* Info.plist */,
+			);
+			path = GauchoMeetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FA074641B6B4C1300E62667 /* GauchoMeet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA0748F1B6B4C1300E62667 /* Build configuration list for PBXNativeTarget "GauchoMeet" */;
+			buildPhases = (
+				2FA074611B6B4C1300E62667 /* Sources */,
+				2FA074621B6B4C1300E62667 /* Frameworks */,
+				2FA074631B6B4C1300E62667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GauchoMeet;
+			productName = GauchoMeet;
+			productReference = 2FA074651B6B4C1300E62667 /* GauchoMeet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FA0747A1B6B4C1300E62667 /* GauchoMeetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA074921B6B4C1300E62667 /* Build configuration list for PBXNativeTarget "GauchoMeetTests" */;
+			buildPhases = (
+				2FA074771B6B4C1300E62667 /* Sources */,
+				2FA074781B6B4C1300E62667 /* Frameworks */,
+				2FA074791B6B4C1300E62667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FA0747D1B6B4C1300E62667 /* PBXTargetDependency */,
+			);
+			name = GauchoMeetTests;
+			productName = GauchoMeetTests;
+			productReference = 2FA0747B1B6B4C1300E62667 /* GauchoMeetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FA074851B6B4C1300E62667 /* GauchoMeetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA074951B6B4C1300E62667 /* Build configuration list for PBXNativeTarget "GauchoMeetUITests" */;
+			buildPhases = (
+				2FA074821B6B4C1300E62667 /* Sources */,
+				2FA074831B6B4C1300E62667 /* Frameworks */,
+				2FA074841B6B4C1300E62667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FA074881B6B4C1300E62667 /* PBXTargetDependency */,
+			);
+			name = GauchoMeetUITests;
+			productName = GauchoMeetUITests;
+			productReference = 2FA074861B6B4C1300E62667 /* GauchoMeetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FA0745D1B6B4C1300E62667 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Golden;
+				TargetAttributes = {
+					2FA074641B6B4C1300E62667 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = F5S48SAJAU;
+					};
+					2FA0747A1B6B4C1300E62667 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 2FA074641B6B4C1300E62667;
+					};
+					2FA074851B6B4C1300E62667 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 2FA074641B6B4C1300E62667;
+					};
+				};
+			};
+			buildConfigurationList = 2FA074601B6B4C1300E62667 /* Build configuration list for PBXProject "GauchoMeet" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FA0745C1B6B4C1300E62667;
+			productRefGroup = 2FA074661B6B4C1300E62667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FA074641B6B4C1300E62667 /* GauchoMeet */,
+				2FA0747A1B6B4C1300E62667 /* GauchoMeetTests */,
+				2FA074851B6B4C1300E62667 /* GauchoMeetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FA074631B6B4C1300E62667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA074751B6B4C1300E62667 /* LaunchScreen.storyboard in Resources */,
+				2FA074721B6B4C1300E62667 /* Assets.xcassets in Resources */,
+				2FA074701B6B4C1300E62667 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA074791B6B4C1300E62667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA074841B6B4C1300E62667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FA074611B6B4C1300E62667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA0746D1B6B4C1300E62667 /* SecondViewController.swift in Sources */,
+				2FA074691B6B4C1300E62667 /* AppDelegate.swift in Sources */,
+				2FA0746B1B6B4C1300E62667 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA074771B6B4C1300E62667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA074801B6B4C1300E62667 /* GauchoMeetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA074821B6B4C1300E62667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA0748B1B6B4C1300E62667 /* GauchoMeetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FA0747D1B6B4C1300E62667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FA074641B6B4C1300E62667 /* GauchoMeet */;
+			targetProxy = 2FA0747C1B6B4C1300E62667 /* PBXContainerItemProxy */;
+		};
+		2FA074881B6B4C1300E62667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FA074641B6B4C1300E62667 /* GauchoMeet */;
+			targetProxy = 2FA074871B6B4C1300E62667 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FA0746E1B6B4C1300E62667 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FA0746F1B6B4C1300E62667 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FA074731B6B4C1300E62667 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FA074741B6B4C1300E62667 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FA0748D1B6B4C1300E62667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FA0748E1B6B4C1300E62667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FA074901B6B4C1300E62667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0;
+				INFOPLIST_FILE = GauchoMeet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GD.GauchoMeet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		2FA074911B6B4C1300E62667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0;
+				INFOPLIST_FILE = GauchoMeet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GD.GauchoMeet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2FA074931B6B4C1300E62667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GauchoMeetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GD.GauchoMeetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GauchoMeet.app/GauchoMeet";
+			};
+			name = Debug;
+		};
+		2FA074941B6B4C1300E62667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GauchoMeetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GD.GauchoMeetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GauchoMeet.app/GauchoMeet";
+			};
+			name = Release;
+		};
+		2FA074961B6B4C1300E62667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GauchoMeetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GD.GauchoMeetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GauchoMeet;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2FA074971B6B4C1300E62667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GauchoMeetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GD.GauchoMeetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GauchoMeet;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FA074601B6B4C1300E62667 /* Build configuration list for PBXProject "GauchoMeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA0748D1B6B4C1300E62667 /* Debug */,
+				2FA0748E1B6B4C1300E62667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FA0748F1B6B4C1300E62667 /* Build configuration list for PBXNativeTarget "GauchoMeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA074901B6B4C1300E62667 /* Debug */,
+				2FA074911B6B4C1300E62667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FA074921B6B4C1300E62667 /* Build configuration list for PBXNativeTarget "GauchoMeetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA074931B6B4C1300E62667 /* Debug */,
+				2FA074941B6B4C1300E62667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FA074951B6B4C1300E62667 /* Build configuration list for PBXNativeTarget "GauchoMeetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA074961B6B4C1300E62667 /* Debug */,
+				2FA074971B6B4C1300E62667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FA0745D1B6B4C1300E62667 /* Project object */;
+}
